@@ -1,0 +1,133 @@
+body{
+    color: #2b2c48;
+  font-family: "Jost", sans-serif;
+  background-image: url("./media/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed
+}
+
+.card{
+    border:none;
+
+    position:relative;
+    overflow:hidden;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.mt-3 {
+  font-family: "Jost", sans-serif;
+}
+
+.card:before{
+    margin-left: 0,5px;
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:101%;
+    background-color:#B2DFDB;
+    transform:scaleY(1);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+
+.card:after{
+    margin-left: 0,5px;
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:101%;
+    background-color:green;
+    transform:scaleY(0);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+
+.card:hover::after{
+    transform:scaleY(1);
+}
+
+
+.fonts{
+    font-size:11px;
+}
+
+.social-list{
+    display:flex;
+    list-style:none;
+    justify-content:center;
+    padding:0;
+}
+
+.social-list li{
+    padding:10px;
+    color:#8E24AA;
+    font-size:19px;
+}
+
+
+.buttons button:nth-child(1){
+       border:1px solid #8E24AA !important;
+       color:#8E24AA;
+       height:40px;
+}
+
+.buttons button:nth-child(1):hover{
+       border:1px solid #8E24AA !important;
+       color:#fff;
+       height:40px;
+       background-color:#8E24AA;
+}
+
+.buttons button:nth-child(2){
+       border:1px solid #8E24AA !important;
+       background-color:#8E24AA;
+       color:#fff;
+        height:40px;
+}
+
+.col-md-7{
+      backdrop-filter: blur(20px);
+      border: 3px solid #B2DFCB;
+      border-radius: 12px;
+      width: 50%;
+      transition: all 0.5s;
+}
+
+.col-md-7:hover{
+      backdrop-filter: blur(50px);
+      border: 3px solid green;
+      border-radius: 15px;
+      width: 50%;
+}
+img{
+transition: all 1s;
+}
+
+
+img:hover{
+margin-top: 10px;
+border: 2px solid green;
+}
+
+.contact-me {
+  backdrop-filter: blur(2px);
+  border: 0;
+  outline: none;
+  background: transparant;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  padding: 12px 16px;
+  width: 50%;
+  border-radius: 5px;
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  transition: 0.3s;
+}
