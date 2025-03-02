@@ -1,3 +1,11 @@
+### Kalo Mau Ngambil Kodenya, Jangan Lupa Ngasih Star(Bintang).
+### Minimal Bayar Pake Bintang Lah....
+
+<br>
+<br>
+<br>
+<br>
+
 # LemonSync
 
 Selamat datang di repositori **LemonSync**! 🚀
@@ -6,7 +14,7 @@ Selamat datang di repositori **LemonSync**! 🚀
 
 Halo! Saya Eres Fran Setia Simbolon, seorang programmer pemula yang antusias mempelajari dunia pemrograman. Saya memiliki minat dalam pengembangan bot WhatsApp, JavaScript, dan pembuatan website. Untuk informasi lebih lanjut tentang saya, kunjungi halaman [Tentang Saya](https://lemonsync.github.io/WebAbout/main.html).
 
-## Fitur Utama
+## Proyek Saya
 
 - **Bot WhatsApp**: Pengembangan dan kustomisasi bot WhatsApp menggunakan JavaScript dan Baileys.
 - **Payment Gateway**: Sistem penjualan otomatis untuk mempermudah transaksi.
