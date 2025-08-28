@@ -24,7 +24,7 @@ Halo! Saya Eres Fran Setia Simbolon, seorang programmer pemula yang antusias mem
 
 - **Email**: [grouplemon0@gmail.com](mailto:grouplemon0@gmail.com)
 - **GitHub**: [LemonSync](https://github.com/LemonSync)
-- **WhatsApp**: -
+- **WhatsApp**: [Lemon](https://wa.me/6282172175234)
 
 ## Cerita Saya
 
